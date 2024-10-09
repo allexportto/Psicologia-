@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+.img-bandeiras {
+    display: flex; /* Utiliza o flexbox para o alinhamento */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Alinha as imagens verticalmente ao centro */
+    gap: 10px; /* Adiciona espaço entre as imagens */
+    flex-wrap: wrap; /* Permite que as imagens se ajustem à largura da tela */
+    max-width: 600px; /* Define a largura máxima do container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+}
+
+.img-bandeiras img {
+    width: 100px; /* Tamanho fixo das imagens */
+    height: 67px; /* Tamanho fixo das imagens */
+    object-fit: contain; /* Mantém a proporção das imagens */
+}
